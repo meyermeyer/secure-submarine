@@ -3,6 +3,7 @@
 .DS_STORE/
 
 # Logs
+.env
 logs
 *.log
 npm-debug.log*
