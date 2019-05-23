@@ -7,7 +7,7 @@ class AllUsers extends Component {
             <ul>
                 {this.props.reduxState.allUsers.map((user)=>{
                     return(
-                        <li>user</li>
+                        <li>{user.username}</li>
                     )
                 })}
                 {/* <li>users here</li> */}
