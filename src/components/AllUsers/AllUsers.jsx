@@ -5,9 +5,9 @@ class AllUsers extends Component {
     render(){
         return(
             <ul>
-                {this.props.reduxState.allUsers && this.props.reduxState.allUsers.map((user)=>{
+                {this.props.reduxState.allUsers!=[] && this.props.reduxState.allUsers.map((user, i)=>{
                     return(
-                        <li>{user.username}</li>
+                        <li key={i}>{user.username}</li>
                     )
                 })}
                 {/* <li>users here</li> */}

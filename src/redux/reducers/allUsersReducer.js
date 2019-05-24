@@ -1,4 +1,4 @@
-const allUsersReducer = (state = {}, action) => {
+const allUsersReducer = (state = [], action) => {
     console.log('in allUsersReducer', action.payload);
     
     switch (action.type) {
